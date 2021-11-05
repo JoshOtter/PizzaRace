@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\PizzaRace.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{5C7376AA-AE3C-426A-9728-C6074D270A1B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\PizzaRace.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\PizzaRaceEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{7D27BDB5-E3BD-48B8-B6AE-16E741EB42D5}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\PizzaRace">
+      <UniqueIdentifier>{176DDED7-A393-4223-B820-8C0C3B299E37}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\PizzaRace\GameHUD.cpp">
+      <Filter>Source\PizzaRace</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PizzaRace\GameHUD.h">
+      <Filter>Source\PizzaRace</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\PizzaRace\PizzaRace.Build.cs">
+      <Filter>Source\PizzaRace</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\PizzaRace\PizzaRace.cpp">
+      <Filter>Source\PizzaRace</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PizzaRace\PizzaRace.h">
+      <Filter>Source\PizzaRace</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PizzaRace\PizzaRaceGameModeBase.cpp">
+      <Filter>Source\PizzaRace</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PizzaRace\PizzaRaceGameModeBase.h">
+      <Filter>Source\PizzaRace</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

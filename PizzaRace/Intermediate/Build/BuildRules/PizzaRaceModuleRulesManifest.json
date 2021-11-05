@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\otter\\Desktop\\Unreal_Projects\\PizzaRace\\PizzaRace\\Source\\PizzaRace\\PizzaRace.Build.cs",
+		"C:\\Users\\otter\\Desktop\\Unreal_Projects\\PizzaRace\\PizzaRace\\Source\\PizzaRace.Target.cs",
+		"C:\\Users\\otter\\Desktop\\Unreal_Projects\\PizzaRace\\PizzaRace\\Source\\PizzaRaceEditor.Target.cs"
+	],
+	"EngineVersion": "4.27.1"
+}

@@ -1,0 +1,2 @@
+C:\Users\otter\Desktop\Unreal_Projects\PizzaRace\PizzaRace\Intermediate\Build\Win64\UE4Editor\Development\PizzaRace\Definitions.PizzaRace.h
+C:\Users\otter\Desktop\Unreal_Projects\PizzaRace\PizzaRace\Source\PizzaRace\PizzaRace.h

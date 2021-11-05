@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "PizzaRace",
+			"Path": "C:\\Users\\otter\\Desktop\\Unreal_Projects\\PizzaRace\\PizzaRace\\Source\\PizzaRace.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "PizzaRaceEditor",
+			"Path": "C:\\Users\\otter\\Desktop\\Unreal_Projects\\PizzaRace\\PizzaRace\\Source\\PizzaRaceEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
