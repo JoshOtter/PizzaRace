@@ -6,6 +6,8 @@
 #include "Blueprint/UserWidget.h"
 #include "GameHUD.generated.h"
 
+class APizzaRaceGameModeBase;
+
 /**
  * 
  */
@@ -16,4 +18,8 @@ class PIZZARACE_API UGameHUD : public UUserWidget
 public:
 	UFUNCTION(BlueprintImplementableEvent, BlueprintCallable, Category = "Timer")
 	void KeepTime();
+
+protected:
+	UPROPERTY(BlueprintReadWrite, Category = "References", meta = (BlueprintProtected))
+	APizzaRaceGameModeBase* GameModeRef;
 };

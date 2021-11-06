@@ -64,7 +64,6 @@ public: \
 
 #define PizzaRace_Source_PizzaRace_PizzaRaceGameModeBase_h_17_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__GameHUDRef() { return STRUCT_OFFSET(APizzaRaceGameModeBase, GameHUDRef); } \
-	FORCEINLINE static uint32 __PPO__Time() { return STRUCT_OFFSET(APizzaRaceGameModeBase, Time); } \
 	FORCEINLINE static uint32 __PPO__LessThanTwo() { return STRUCT_OFFSET(APizzaRaceGameModeBase, LessThanTwo); } \
 	FORCEINLINE static uint32 __PPO__TwotoFive() { return STRUCT_OFFSET(APizzaRaceGameModeBase, TwotoFive); } \
 	FORCEINLINE static uint32 __PPO__MoreThanFive() { return STRUCT_OFFSET(APizzaRaceGameModeBase, MoreThanFive); }

@@ -118,13 +118,13 @@ void EmptyLinkFunctionForGeneratedCodePizzaRaceGameModeBase() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Seconds_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_Seconds;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_GameHUDRef_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_GameHUDRef;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Time_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_Time;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_LessThanTwo_MetaData[];
 #endif
@@ -160,6 +160,14 @@ void EmptyLinkFunctionForGeneratedCodePizzaRaceGameModeBase() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APizzaRaceGameModeBase_Statics::NewProp_Seconds_MetaData[] = {
+		{ "BlueprintProtected", "" },
+		{ "Category", "References" },
+		{ "ModuleRelativePath", "PizzaRaceGameModeBase.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_APizzaRaceGameModeBase_Statics::NewProp_Seconds = { "Seconds", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APizzaRaceGameModeBase, Seconds), METADATA_PARAMS(Z_Construct_UClass_APizzaRaceGameModeBase_Statics::NewProp_Seconds_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APizzaRaceGameModeBase_Statics::NewProp_Seconds_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APizzaRaceGameModeBase_Statics::NewProp_GameHUDRef_MetaData[] = {
 		{ "BlueprintProtected", "" },
 		{ "Category", "References" },
@@ -168,14 +176,6 @@ void EmptyLinkFunctionForGeneratedCodePizzaRaceGameModeBase() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APizzaRaceGameModeBase_Statics::NewProp_GameHUDRef = { "GameHUDRef", nullptr, (EPropertyFlags)0x002008000008000c, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APizzaRaceGameModeBase, GameHUDRef), Z_Construct_UClass_UGameHUD_NoRegister, METADATA_PARAMS(Z_Construct_UClass_APizzaRaceGameModeBase_Statics::NewProp_GameHUDRef_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APizzaRaceGameModeBase_Statics::NewProp_GameHUDRef_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APizzaRaceGameModeBase_Statics::NewProp_Time_MetaData[] = {
-		{ "BlueprintProtected", "" },
-		{ "Category", "Timer" },
-		{ "ModuleRelativePath", "PizzaRaceGameModeBase.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_APizzaRaceGameModeBase_Statics::NewProp_Time = { "Time", nullptr, (EPropertyFlags)0x0020080000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APizzaRaceGameModeBase, Time), METADATA_PARAMS(Z_Construct_UClass_APizzaRaceGameModeBase_Statics::NewProp_Time_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APizzaRaceGameModeBase_Statics::NewProp_Time_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APizzaRaceGameModeBase_Statics::NewProp_LessThanTwo_MetaData[] = {
 		{ "BlueprintProtected", "" },
@@ -201,8 +201,8 @@ void EmptyLinkFunctionForGeneratedCodePizzaRaceGameModeBase() {}
 #endif
 	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UClass_APizzaRaceGameModeBase_Statics::NewProp_MoreThanFive = { "MoreThanFive", nullptr, (EPropertyFlags)0x0020080000020005, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APizzaRaceGameModeBase, MoreThanFive), METADATA_PARAMS(Z_Construct_UClass_APizzaRaceGameModeBase_Statics::NewProp_MoreThanFive_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APizzaRaceGameModeBase_Statics::NewProp_MoreThanFive_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_APizzaRaceGameModeBase_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APizzaRaceGameModeBase_Statics::NewProp_Seconds,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APizzaRaceGameModeBase_Statics::NewProp_GameHUDRef,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APizzaRaceGameModeBase_Statics::NewProp_Time,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APizzaRaceGameModeBase_Statics::NewProp_LessThanTwo,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APizzaRaceGameModeBase_Statics::NewProp_TwotoFive,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APizzaRaceGameModeBase_Statics::NewProp_MoreThanFive,
@@ -234,7 +234,7 @@ void EmptyLinkFunctionForGeneratedCodePizzaRaceGameModeBase() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APizzaRaceGameModeBase, 1226073360);
+	IMPLEMENT_CLASS(APizzaRaceGameModeBase, 519614387);
 	template<> PIZZARACE_API UClass* StaticClass<APizzaRaceGameModeBase>()
 	{
 		return APizzaRaceGameModeBase::StaticClass();

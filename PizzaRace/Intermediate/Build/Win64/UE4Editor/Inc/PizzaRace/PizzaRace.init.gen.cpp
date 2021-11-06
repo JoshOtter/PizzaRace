@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodePizzaRace_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xDA3692C8,
+				0x7C9A0513,
 				0xE7055B2E,
 				METADATA_PARAMS(nullptr, 0)
 			};

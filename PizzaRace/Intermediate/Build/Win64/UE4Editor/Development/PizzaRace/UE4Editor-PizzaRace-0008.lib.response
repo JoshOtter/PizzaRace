@@ -1,0 +1,17 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-PizzaRace-0008.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\otter\Desktop\Unreal_Projects\PizzaRace\PizzaRace\Intermediate\Build\Win64\PizzaRaceEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\otter\Desktop\Unreal_Projects\PizzaRace\PizzaRace\Intermediate\Build\Win64\UE4Editor\Development\PizzaRace\GameHUD.cpp.obj"
+"C:\Users\otter\Desktop\Unreal_Projects\PizzaRace\PizzaRace\Intermediate\Build\Win64\UE4Editor\Development\PizzaRace\PizzaRace.cpp.obj"
+"C:\Users\otter\Desktop\Unreal_Projects\PizzaRace\PizzaRace\Intermediate\Build\Win64\UE4Editor\Development\PizzaRace\PizzaRaceGameModeBase.cpp.obj"
+"C:\Users\otter\Desktop\Unreal_Projects\PizzaRace\PizzaRace\Intermediate\Build\Win64\UE4Editor\Development\PizzaRace\GameHUD.gen.cpp.obj"
+"C:\Users\otter\Desktop\Unreal_Projects\PizzaRace\PizzaRace\Intermediate\Build\Win64\UE4Editor\Development\PizzaRace\PizzaRace.init.gen.cpp.obj"
+"C:\Users\otter\Desktop\Unreal_Projects\PizzaRace\PizzaRace\Intermediate\Build\Win64\UE4Editor\Development\PizzaRace\PizzaRaceGameModeBase.gen.cpp.obj"
+"C:\Users\otter\Desktop\Unreal_Projects\PizzaRace\PizzaRace\Intermediate\Build\Win64\UE4Editor\Development\PizzaRace\Default.rc2.res"
+/OUT:"C:\Users\otter\Desktop\Unreal_Projects\PizzaRace\PizzaRace\Intermediate\Build\Win64\UE4Editor\Development\PizzaRace\UE4Editor-PizzaRace-0008.lib"

@@ -17,6 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeGameHUD() {}
 	PIZZARACE_API UClass* Z_Construct_UClass_UGameHUD();
 	UMG_API UClass* Z_Construct_UClass_UUserWidget();
 	UPackage* Z_Construct_UPackage__Script_PizzaRace();
+	PIZZARACE_API UClass* Z_Construct_UClass_APizzaRaceGameModeBase_NoRegister();
 // End Cross Module References
 	static FName NAME_UGameHUD_KeepTime = FName(TEXT("KeepTime"));
 	void UGameHUD::KeepTime()
@@ -60,6 +61,11 @@ void EmptyLinkFunctionForGeneratedCodeGameHUD() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_GameModeRef_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_GameModeRef;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -77,6 +83,17 @@ void EmptyLinkFunctionForGeneratedCodeGameHUD() {}
 		{ "ModuleRelativePath", "GameHUD.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGameHUD_Statics::NewProp_GameModeRef_MetaData[] = {
+		{ "BlueprintProtected", "" },
+		{ "Category", "References" },
+		{ "ModuleRelativePath", "GameHUD.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UGameHUD_Statics::NewProp_GameModeRef = { "GameModeRef", nullptr, (EPropertyFlags)0x0020080000000004, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UGameHUD, GameModeRef), Z_Construct_UClass_APizzaRaceGameModeBase_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UGameHUD_Statics::NewProp_GameModeRef_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UGameHUD_Statics::NewProp_GameModeRef_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UGameHUD_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UGameHUD_Statics::NewProp_GameModeRef,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UGameHUD_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UGameHUD>::IsAbstract,
 	};
@@ -86,11 +103,11 @@ void EmptyLinkFunctionForGeneratedCodeGameHUD() {}
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		FuncInfo,
-		nullptr,
+		Z_Construct_UClass_UGameHUD_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
 		UE_ARRAY_COUNT(FuncInfo),
-		0,
+		UE_ARRAY_COUNT(Z_Construct_UClass_UGameHUD_Statics::PropPointers),
 		0,
 		0x00B010A0u,
 		METADATA_PARAMS(Z_Construct_UClass_UGameHUD_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_UGameHUD_Statics::Class_MetaDataParams))
@@ -104,7 +121,7 @@ void EmptyLinkFunctionForGeneratedCodeGameHUD() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UGameHUD, 1840716167);
+	IMPLEMENT_CLASS(UGameHUD, 3353537091);
 	template<> PIZZARACE_API UClass* StaticClass<UGameHUD>()
 	{
 		return UGameHUD::StaticClass();

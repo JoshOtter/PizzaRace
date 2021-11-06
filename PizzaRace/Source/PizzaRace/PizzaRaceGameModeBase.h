@@ -24,13 +24,16 @@ public:
 	UFUNCTION(BlueprintImplementableEvent, BlueprintCallable, Category = "Timer")
 	void EndTimer();
 
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "References", meta = (BlueprintProtected))
+	int Seconds = 30;
+
 protected:
 
 	UPROPERTY(BlueprintReadWrite, Category = "References", meta = (BlueprintProtected))
 	UGameHUD* GameHUDRef;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Timer", meta = (BlueprintProtected))
-	float Time = 30.0f;
+
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Message", meta = (BlueprintProtected))
 	FString LessThanTwo = "Just in Time!";
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Message", meta = (BlueprintProtected))

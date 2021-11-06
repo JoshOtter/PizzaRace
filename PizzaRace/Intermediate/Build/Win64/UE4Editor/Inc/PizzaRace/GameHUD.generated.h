@@ -13,12 +13,12 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define PIZZARACE_GameHUD_generated_h
 
-#define PizzaRace_Source_PizzaRace_GameHUD_h_15_SPARSE_DATA
-#define PizzaRace_Source_PizzaRace_GameHUD_h_15_RPC_WRAPPERS
-#define PizzaRace_Source_PizzaRace_GameHUD_h_15_RPC_WRAPPERS_NO_PURE_DECLS
-#define PizzaRace_Source_PizzaRace_GameHUD_h_15_EVENT_PARMS
-#define PizzaRace_Source_PizzaRace_GameHUD_h_15_CALLBACK_WRAPPERS
-#define PizzaRace_Source_PizzaRace_GameHUD_h_15_INCLASS_NO_PURE_DECLS \
+#define PizzaRace_Source_PizzaRace_GameHUD_h_17_SPARSE_DATA
+#define PizzaRace_Source_PizzaRace_GameHUD_h_17_RPC_WRAPPERS
+#define PizzaRace_Source_PizzaRace_GameHUD_h_17_RPC_WRAPPERS_NO_PURE_DECLS
+#define PizzaRace_Source_PizzaRace_GameHUD_h_17_EVENT_PARMS
+#define PizzaRace_Source_PizzaRace_GameHUD_h_17_CALLBACK_WRAPPERS
+#define PizzaRace_Source_PizzaRace_GameHUD_h_17_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUGameHUD(); \
 	friend struct Z_Construct_UClass_UGameHUD_Statics; \
@@ -27,7 +27,7 @@ public: \
 	DECLARE_SERIALIZER(UGameHUD)
 
 
-#define PizzaRace_Source_PizzaRace_GameHUD_h_15_INCLASS \
+#define PizzaRace_Source_PizzaRace_GameHUD_h_17_INCLASS \
 private: \
 	static void StaticRegisterNativesUGameHUD(); \
 	friend struct Z_Construct_UClass_UGameHUD_Statics; \
@@ -36,7 +36,7 @@ public: \
 	DECLARE_SERIALIZER(UGameHUD)
 
 
-#define PizzaRace_Source_PizzaRace_GameHUD_h_15_STANDARD_CONSTRUCTORS \
+#define PizzaRace_Source_PizzaRace_GameHUD_h_17_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UGameHUD(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UGameHUD) \
@@ -49,7 +49,7 @@ private: \
 public:
 
 
-#define PizzaRace_Source_PizzaRace_GameHUD_h_15_ENHANCED_CONSTRUCTORS \
+#define PizzaRace_Source_PizzaRace_GameHUD_h_17_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UGameHUD(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -62,33 +62,36 @@ public: \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UGameHUD)
 
 
-#define PizzaRace_Source_PizzaRace_GameHUD_h_15_PRIVATE_PROPERTY_OFFSET
-#define PizzaRace_Source_PizzaRace_GameHUD_h_12_PROLOG \
-	PizzaRace_Source_PizzaRace_GameHUD_h_15_EVENT_PARMS
+#define PizzaRace_Source_PizzaRace_GameHUD_h_17_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__GameModeRef() { return STRUCT_OFFSET(UGameHUD, GameModeRef); }
 
 
-#define PizzaRace_Source_PizzaRace_GameHUD_h_15_GENERATED_BODY_LEGACY \
+#define PizzaRace_Source_PizzaRace_GameHUD_h_14_PROLOG \
+	PizzaRace_Source_PizzaRace_GameHUD_h_17_EVENT_PARMS
+
+
+#define PizzaRace_Source_PizzaRace_GameHUD_h_17_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	PizzaRace_Source_PizzaRace_GameHUD_h_15_PRIVATE_PROPERTY_OFFSET \
-	PizzaRace_Source_PizzaRace_GameHUD_h_15_SPARSE_DATA \
-	PizzaRace_Source_PizzaRace_GameHUD_h_15_RPC_WRAPPERS \
-	PizzaRace_Source_PizzaRace_GameHUD_h_15_CALLBACK_WRAPPERS \
-	PizzaRace_Source_PizzaRace_GameHUD_h_15_INCLASS \
-	PizzaRace_Source_PizzaRace_GameHUD_h_15_STANDARD_CONSTRUCTORS \
+	PizzaRace_Source_PizzaRace_GameHUD_h_17_PRIVATE_PROPERTY_OFFSET \
+	PizzaRace_Source_PizzaRace_GameHUD_h_17_SPARSE_DATA \
+	PizzaRace_Source_PizzaRace_GameHUD_h_17_RPC_WRAPPERS \
+	PizzaRace_Source_PizzaRace_GameHUD_h_17_CALLBACK_WRAPPERS \
+	PizzaRace_Source_PizzaRace_GameHUD_h_17_INCLASS \
+	PizzaRace_Source_PizzaRace_GameHUD_h_17_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define PizzaRace_Source_PizzaRace_GameHUD_h_15_GENERATED_BODY \
+#define PizzaRace_Source_PizzaRace_GameHUD_h_17_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	PizzaRace_Source_PizzaRace_GameHUD_h_15_PRIVATE_PROPERTY_OFFSET \
-	PizzaRace_Source_PizzaRace_GameHUD_h_15_SPARSE_DATA \
-	PizzaRace_Source_PizzaRace_GameHUD_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	PizzaRace_Source_PizzaRace_GameHUD_h_15_CALLBACK_WRAPPERS \
-	PizzaRace_Source_PizzaRace_GameHUD_h_15_INCLASS_NO_PURE_DECLS \
-	PizzaRace_Source_PizzaRace_GameHUD_h_15_ENHANCED_CONSTRUCTORS \
+	PizzaRace_Source_PizzaRace_GameHUD_h_17_PRIVATE_PROPERTY_OFFSET \
+	PizzaRace_Source_PizzaRace_GameHUD_h_17_SPARSE_DATA \
+	PizzaRace_Source_PizzaRace_GameHUD_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+	PizzaRace_Source_PizzaRace_GameHUD_h_17_CALLBACK_WRAPPERS \
+	PizzaRace_Source_PizzaRace_GameHUD_h_17_INCLASS_NO_PURE_DECLS \
+	PizzaRace_Source_PizzaRace_GameHUD_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
