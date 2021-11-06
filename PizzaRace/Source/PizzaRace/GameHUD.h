@@ -13,5 +13,7 @@ UCLASS()
 class PIZZARACE_API UGameHUD : public UUserWidget
 {
 	GENERATED_BODY()
-	
+public:
+	UFUNCTION(BlueprintImplementableEvent, BlueprintCallable, Category = "Timer")
+	void KeepTime();
 };

@@ -18,8 +18,36 @@ void EmptyLinkFunctionForGeneratedCodeGameHUD() {}
 	UMG_API UClass* Z_Construct_UClass_UUserWidget();
 	UPackage* Z_Construct_UPackage__Script_PizzaRace();
 // End Cross Module References
+	static FName NAME_UGameHUD_KeepTime = FName(TEXT("KeepTime"));
+	void UGameHUD::KeepTime()
+	{
+		ProcessEvent(FindFunctionChecked(NAME_UGameHUD_KeepTime),NULL);
+	}
 	void UGameHUD::StaticRegisterNativesUGameHUD()
 	{
+	}
+	struct Z_Construct_UFunction_UGameHUD_KeepTime_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UGameHUD_KeepTime_Statics::Function_MetaDataParams[] = {
+		{ "Category", "Timer" },
+		{ "ModuleRelativePath", "GameHUD.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UGameHUD_KeepTime_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UGameHUD, nullptr, "KeepTime", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x0C020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UGameHUD_KeepTime_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UGameHUD_KeepTime_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UGameHUD_KeepTime()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UGameHUD_KeepTime_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	UClass* Z_Construct_UClass_UGameHUD_NoRegister()
 	{
@@ -28,6 +56,7 @@ void EmptyLinkFunctionForGeneratedCodeGameHUD() {}
 	struct Z_Construct_UClass_UGameHUD_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
+		static const FClassFunctionLinkInfo FuncInfo[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
@@ -37,6 +66,9 @@ void EmptyLinkFunctionForGeneratedCodeGameHUD() {}
 	UObject* (*const Z_Construct_UClass_UGameHUD_Statics::DependentSingletons[])() = {
 		(UObject* (*)())Z_Construct_UClass_UUserWidget,
 		(UObject* (*)())Z_Construct_UPackage__Script_PizzaRace,
+	};
+	const FClassFunctionLinkInfo Z_Construct_UClass_UGameHUD_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_UGameHUD_KeepTime, "KeepTime" }, // 1146480611
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGameHUD_Statics::Class_MetaDataParams[] = {
@@ -53,11 +85,11 @@ void EmptyLinkFunctionForGeneratedCodeGameHUD() {}
 		nullptr,
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
-		nullptr,
+		FuncInfo,
 		nullptr,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
-		0,
+		UE_ARRAY_COUNT(FuncInfo),
 		0,
 		0,
 		0x00B010A0u,
@@ -72,7 +104,7 @@ void EmptyLinkFunctionForGeneratedCodeGameHUD() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UGameHUD, 3310464885);
+	IMPLEMENT_CLASS(UGameHUD, 1840716167);
 	template<> PIZZARACE_API UClass* StaticClass<UGameHUD>()
 	{
 		return UGameHUD::StaticClass();
