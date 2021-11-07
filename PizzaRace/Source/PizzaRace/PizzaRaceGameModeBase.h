@@ -17,6 +17,8 @@ class PIZZARACE_API APizzaRaceGameModeBase : public AGameModeBase
 	GENERATED_BODY()
 public:
 
+	virtual void Tick(float DeltaTime) override;
+
 	UFUNCTION(BlueprintImplementableEvent, BlueprintCallable, Category = "Timer")
 	void StartTimer();
 	UFUNCTION(BlueprintImplementableEvent, BlueprintCallable, Category = "Score")

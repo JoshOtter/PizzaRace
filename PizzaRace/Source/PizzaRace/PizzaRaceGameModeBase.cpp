@@ -3,3 +3,7 @@
 
 #include "PizzaRaceGameModeBase.h"
 
+void APizzaRaceGameModeBase::Tick(float DeltaTime)
+{
+	Super::Tick(DeltaTime);
+}
